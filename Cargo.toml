@@ -1,0 +1,11 @@
+[package]
+# プロジェクト名（cargo 実行時のバイナリ名にもなる）
+name = "zed-test-01"
+# バージョン
+version = "0.1.0"
+# Rust エディション（2024）
+edition = "2024"
+
+[dependencies]
+# UI フレームワーク（Windows 11 対応のクロスプラットフォーム GUI ツールキット）
+slint = "1.18.1"
